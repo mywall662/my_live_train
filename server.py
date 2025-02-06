@@ -23,7 +23,6 @@ def get_trains():
         trains = []
         for entity in feed.entity:
             if entity.vehicle:
-            if entity.vehicle:
                 train_info = {
                     "id": entity.vehicle.vehicle.id,
                     "latitude": entity.vehicle.position.latitude,
